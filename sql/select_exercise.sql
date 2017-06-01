@@ -1,5 +1,9 @@
 USE codeup_test_db;
 
+
+TRUNCATE albums;
+
+
 # The name of all albums by Pink Floyd.
 select 'The name of all albums from Pink Floyd: ' as '';
 SELECT name FROM albums WHERE artist = 'Pink Floyd';
